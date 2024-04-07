@@ -3,5 +3,5 @@ from socketc import SocketC
 
 class ConnectionF(ABC):
     @abstractmethod
-    def create_socket(self):
+    def create_socket(self, multicast_group, port):
         pass

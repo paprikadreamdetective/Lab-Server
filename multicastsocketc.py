@@ -13,5 +13,5 @@ class MulticastSocket(SocketC):
         multicast_socket.setsockopt(socketUDP.IPPROTO_IP, socketUDP.IP_ADD_MEMBERSHIP, struct.pack('4sL', socketUDP.inet_aton(self.multicast_group), socketUDP.INADDR_ANY))
         return multicast_socket
 
-    def receive_message(self) -> tuple:
+    def receive_msg(self) -> tuple:
         return self.socket.recvfrom(1024)

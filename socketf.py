@@ -1,6 +1,7 @@
-from connectionf import ConnectionF
+
 from multicastsocketc import MulticastSocket
 
-class MulticastSocketFactory(ConnectionF):
-    def create_socket(self, multicast_group, port):
+class SocketFactory:
+    @staticmethod
+    def create_multicast_socket(self, multicast_group, port) -> MulticastSocket:
         return MulticastSocket(multicast_group, port)

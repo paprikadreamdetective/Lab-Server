@@ -1,4 +1,4 @@
-from socketc import SocketC
+from .socketc import SocketC
 import socket as socketUDP
 import struct
 

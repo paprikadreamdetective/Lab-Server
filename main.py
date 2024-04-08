@@ -1,8 +1,8 @@
-import factory.socketf
+from factory.socketf import SocketFactory
 
 
 def main():
-    multicast_socket_receiver = factory.socketf.SocketFactory.create_multicast_socket('224.10.10.10', '10000')
+    multicast_socket_receiver = SocketFactory.create_multicast_socket('224.10.10.10', '10000')
     while True:
         print('Waiting to Receive Message')
         data, address = multicast_socket_receiver.receive_msg()

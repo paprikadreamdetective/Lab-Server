@@ -13,5 +13,8 @@ class SocketC(ABC):
     def init_connection(self):
         pass
     @abstractmethod
+    def send_msg(self):
+        pass
+    @abstractmethod
     def receive_msg(self):
         pass

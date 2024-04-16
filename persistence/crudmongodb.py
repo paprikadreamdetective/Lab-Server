@@ -1,4 +1,4 @@
-from crud import Crud
+from .crud import Crud
 from pymongo import MongoClient, database
 from pymongo.errors import ServerSelectionTimeoutError
 

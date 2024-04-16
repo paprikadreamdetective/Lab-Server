@@ -1,5 +1,6 @@
 from factory.socketf import SocketFactory
 from persistence.crudmongodb import crudMongoDB
+
 # Hola mundo
 def main():
     multicast_socket_receiver = SocketFactory.create_multicast_socket('224.10.10.10', 10000)

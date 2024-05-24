@@ -1,0 +1,26 @@
+{
+    "IS": 4,
+    "sensor": {
+        "THERMISTOR": {
+            "ID": 30,
+            "data_representation": "float",
+            "magnitude": 27.97635,
+            "measurement": "Temperature"
+        },
+        "AHT10": {
+            "ID": 10,
+            "data_representation": "float",
+            "magnitude": 31.95219,
+            "measurement": "Humidity"
+        },
+        "MQ-135": {
+            "ID": 20,
+            "data_representation": "integer",
+            "magnitude": 66,
+            "measurement": "CO2"
+        }
+    },
+    "time: ": "",
+    "area": 1,
+    "ID_Experiment": "ba78b802-3d79-46db-947e-a16174248d98"
+}
